@@ -1,0 +1,137 @@
+package com.example.edumarkaz.data
+
+import com.example.edumarkaz.model.ComparePlatform
+
+object ComparePlatformData {
+
+    val platforms = listOf(
+        ComparePlatform(
+            name = "Coursera",
+            category = "General",
+            description = "Universitet va professional online kurslar platformasi",
+            priceType = "Aralash",
+            beginnerFriendly = "Ha",
+            certificate = "Bor",
+            courseType = "Video + Akademik",
+            languageSupport = "Ko‘p tilli",
+            practicalTasks = "O‘rtacha",
+            mobileApp = "Bor",
+            rating = 4.8,
+            bestFor = "Universitet darajasidagi kurslar izlaganlar uchun",
+            strength = "Kuchli akademik kurslar va sertifikatlar",
+            weakness = "Ba’zi kurslar pullik"
+        ),
+        ComparePlatform(
+            name = "Udemy",
+            category = "General",
+            description = "Amaliy ko‘nikmalar va kasbiy kurslar platformasi",
+            priceType = "Asosan pullik",
+            beginnerFriendly = "Ha",
+            certificate = "Bor",
+            courseType = "Video",
+            languageSupport = "Ko‘p tilli",
+            practicalTasks = "Yaxshi",
+            mobileApp = "Bor",
+            rating = 4.7,
+            bestFor = "Tez va amaliy kurs istaganlar uchun",
+            strength = "Kurslar soni juda ko‘p",
+            weakness = "Sifat kursga qarab farq qiladi"
+        ),
+        ComparePlatform(
+            name = "freeCodeCamp",
+            category = "Programming",
+            description = "Bepul dasturlash kurslari va sertifikatlar platformasi",
+            priceType = "Bepul",
+            beginnerFriendly = "Ha",
+            certificate = "Bor",
+            courseType = "Amaliy + Matn + Kod",
+            languageSupport = "Asosan inglizcha",
+            practicalTasks = "Juda kuchli",
+            mobileApp = "Cheklangan",
+            rating = 4.9,
+            bestFor = "Dasturlashni bepul o‘rganmoqchi bo‘lganlar uchun",
+            strength = "Amaliy va bepul",
+            weakness = "UI uncha premium emas"
+        ),
+        ComparePlatform(
+            name = "LeetCode",
+            category = "Programming",
+            description = "Algoritm va interview tayyorlov masalalari platformasi",
+            priceType = "Aralash",
+            beginnerFriendly = "Qisman",
+            certificate = "Yo‘q",
+            courseType = "Masala + Kod",
+            languageSupport = "Asosan inglizcha",
+            practicalTasks = "Juda kuchli",
+            mobileApp = "Bor",
+            rating = 4.8,
+            bestFor = "Interview va algoritmga tayyorlanadiganlar uchun",
+            strength = "Coding interview uchun juda kuchli",
+            weakness = "Boshlovchilar uchun qiyin"
+        ),
+        ComparePlatform(
+            name = "YouTube",
+            category = "Video",
+            description = "Bepul video darslar va katta kontent manbasi",
+            priceType = "Bepul",
+            beginnerFriendly = "Ha",
+            certificate = "Yo‘q",
+            courseType = "Video",
+            languageSupport = "Juda ko‘p tilli",
+            practicalTasks = "Muallifga bog‘liq",
+            mobileApp = "Bor",
+            rating = 4.6,
+            bestFor = "Bepul video dars izlaganlar uchun",
+            strength = "Kontent juda ko‘p",
+            weakness = "Tartibli kurs topish qiyin"
+        ),
+        ComparePlatform(
+            name = "MIT OpenCourseWare",
+            category = "University",
+            description = "MIT ochiq kurslari va akademik materiallari",
+            priceType = "Bepul",
+            beginnerFriendly = "Qisman",
+            certificate = "Yo‘q",
+            courseType = "Akademik + Video + Matn",
+            languageSupport = "Asosan inglizcha",
+            practicalTasks = "O‘rtacha",
+            mobileApp = "Yo‘q",
+            rating = 4.9,
+            bestFor = "Chuqur akademik bilim istaganlar uchun",
+            strength = "Juda sifatli universitet materiallari",
+            weakness = "Boshlovchilar uchun qiyin bo‘lishi mumkin"
+        ),
+        ComparePlatform(
+            name = "Kaggle",
+            category = "AI",
+            description = "Dataset, musobaqa va machine learning platformasi",
+            priceType = "Bepul",
+            beginnerFriendly = "Qisman",
+            certificate = "Yo‘q",
+            courseType = "Amaliy + Notebook + Dataset",
+            languageSupport = "Asosan inglizcha",
+            practicalTasks = "Juda kuchli",
+            mobileApp = "Cheklangan",
+            rating = 4.8,
+            bestFor = "Data science amaliyoti uchun",
+            strength = "Real dataset va musobaqalar",
+            weakness = "Boshlovchilar uchun murakkab"
+        ),
+        ComparePlatform(
+            name = "Duolingo",
+            category = "Language",
+            description = "Qiziqarli mashqlar bilan til o‘rgatadigan platforma",
+            priceType = "Aralash",
+            beginnerFriendly = "Ha",
+            certificate = "Yo‘q",
+            courseType = "Interaktiv mashq",
+            languageSupport = "Ko‘p tilli",
+            practicalTasks = "Yaxshi",
+            mobileApp = "Bor",
+            rating = 4.7,
+            bestFor = "Tilni kundalik mashq bilan o‘rganish uchun",
+            strength = "Oson va qiziqarli o‘rganish",
+            weakness = "Chuqur grammatika yetarli emas"
+        )
+    )
+}
